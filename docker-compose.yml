@@ -36,7 +36,7 @@ services:
 
   emstrack:
     build:
-      context: https://github.com/EMSTrack/EMSTrack-Django.git#devel
+      context: ../EMSTrack-Django
     env_file:
       - settings.env
       #- local.env
